@@ -1,0 +1,12 @@
+#inputRotate{
+    width: 50%;
+    /* margin: 2em 15em; */
+    margin:0 auto;
+    
+}
+.form-control{
+    border: 1px solid violet;
+}
+.button_container{
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+.tab-container {
+  .page-container {
+    .ant-radio-inner:after {
+      background: #40a9ff !important;
+    }
+
+    .ant-radio-checked .ant-radio-inner,
+    .ant-radio:hover .ant-radio-inner,
+    .ant-radio-wrapper:hover,
+    .ant-radio-input:focus .ant-radio-inner {
+      border-color: #40a9ff !important;
+    }
+  }
+  .printer-container {
+    .ant-checkbox-checked .ant-checkbox-inner {
+      background-color: #40a9ff !important;
+      border-color: #40a9ff !important;
+    }
+  }
+}
+.transform {
+}
+.template-icon {
+  display: flex;
+  flex-direction: column;
+  img {
+    margin: 0 auto;
+    padding: 8px 0px;
+  }
+}

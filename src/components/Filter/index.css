@@ -1,0 +1,65 @@
+filter-tainer {
+  display: flex;
+  border: 1px solid green;
+  flex-basis: auto;
+  flex-direction: column;
+}
+
+#filter_fill {
+  line-height: 1.6rem;
+  width: 5em;
+  font-size: 1rem;
+  /* border-radius: 50px;
+  background: #252727;
+  box-shadow: 16px 16px 32px #1f2121, -16px -16px 32px #2b2d2d; */
+}
+
+.label-filter {
+  display: flex;
+  justify-content: center;
+}
+
+#label {
+  font-size: 1rem;
+}
+
+.dropdown-menu.show {
+  width: 20em;
+  overflow-x: scroll;
+}
+
+.btn_style {
+  padding: 1.5em;
+  width: 10em;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+#sepia {
+  background: url("https://cdn.jsdelivr.net/npm/photoeditorsdk@latest/assets/filter/items/imgly_lut_sepiahigh.jpg");
+}
+
+#BaW {
+  background: url("https://cdn.jsdelivr.net/npm/photoeditorsdk@latest/assets/filter/categories/b&w.jpg");
+}
+
+#grayscale {
+  background: url("https://cdn.jsdelivr.net/npm/photoeditorsdk@latest/assets/filter/items/imgly_lut_bw.jpg");
+}
+
+#warm {
+  background: url("https://cdn.jsdelivr.net/npm/photoeditorsdk@latest/assets/filter/categories/warm.jpg");
+}
+
+#cold {
+  background: url("https://cdn.jsdelivr.net/npm/photoeditorsdk@latest/assets/filter/categories/cold.jpg");
+}
+
+#smooth {
+  background: url("https://cdn.jsdelivr.net/npm/photoeditorsdk@latest/assets/filter/categories/smooth.jpg");
+}

@@ -1,0 +1,28 @@
+.file_input {
+  padding: 10px;
+}
+
+.file-select-frm {
+  margin-top: 20px;
+}
+
+h1 {
+  color: rgb(231, 187, 93);
+}
+
+
+.file-select-frm{
+  
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.preview-container{
+  /* border: 3px solid green; */
+  height: 5em;
+  position: relative;
+}
